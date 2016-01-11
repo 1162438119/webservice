@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9EEF441C2CCF8B00117D98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9EEF431C2CCF8B00117D98 /* main.m */; };
+		EC9EEF471C2CCF8B00117D98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9EEF461C2CCF8B00117D98 /* AppDelegate.m */; };
+		EC9EEF4A1C2CCF8B00117D98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9EEF491C2CCF8B00117D98 /* ViewController.m */; };
+		EC9EEF4D1C2CCF8B00117D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9EEF4B1C2CCF8B00117D98 /* Main.storyboard */; };
+		EC9EEF4F1C2CCF8B00117D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9EEF4E1C2CCF8B00117D98 /* Assets.xcassets */; };
+		EC9EEF521C2CCF8B00117D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9EEF501C2CCF8B00117D98 /* LaunchScreen.storyboard */; };
+		EC9EEF5D1C2CCF8C00117D98 /* DQLSoapAndXMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9EEF5C1C2CCF8C00117D98 /* DQLSoapAndXMLTests.m */; };
+		EC9EEF681C2CCF8C00117D98 /* DQLSoapAndXMLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9EEF671C2CCF8C00117D98 /* DQLSoapAndXMLUITests.m */; };
+		EC9EEF771C2CCFCD00117D98 /* DQYSoapAndXML.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9EEF761C2CCFCD00117D98 /* DQYSoapAndXML.m */; };
+		EC9EEF7A1C2CD04800117D98 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9EEF791C2CD04800117D98 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9EEF591C2CCF8C00117D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9EEF371C2CCF8B00117D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9EEF3E1C2CCF8B00117D98;
+			remoteInfo = DQLSoapAndXML;
+		};
+		EC9EEF641C2CCF8C00117D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9EEF371C2CCF8B00117D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9EEF3E1C2CCF8B00117D98;
+			remoteInfo = DQLSoapAndXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC9EEF3F1C2CCF8B00117D98 /* DQLSoapAndXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQLSoapAndXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9EEF431C2CCF8B00117D98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC9EEF451C2CCF8B00117D98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC9EEF461C2CCF8B00117D98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC9EEF481C2CCF8B00117D98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC9EEF491C2CCF8B00117D98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC9EEF4C1C2CCF8B00117D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9EEF4E1C2CCF8B00117D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9EEF511C2CCF8B00117D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC9EEF531C2CCF8C00117D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9EEF581C2CCF8C00117D98 /* DQLSoapAndXMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQLSoapAndXMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9EEF5C1C2CCF8C00117D98 /* DQLSoapAndXMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQLSoapAndXMLTests.m; sourceTree = "<group>"; };
+		EC9EEF5E1C2CCF8C00117D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9EEF631C2CCF8C00117D98 /* DQLSoapAndXMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQLSoapAndXMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9EEF671C2CCF8C00117D98 /* DQLSoapAndXMLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQLSoapAndXMLUITests.m; sourceTree = "<group>"; };
+		EC9EEF691C2CCF8C00117D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9EEF751C2CCFCD00117D98 /* DQYSoapAndXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQYSoapAndXML.h; sourceTree = "<group>"; };
+		EC9EEF761C2CCFCD00117D98 /* DQYSoapAndXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQYSoapAndXML.m; sourceTree = "<group>"; };
+		EC9EEF781C2CD04800117D98 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EC9EEF791C2CD04800117D98 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9EEF3C1C2CCF8B00117D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9EEF551C2CCF8C00117D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9EEF601C2CCF8C00117D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9EEF361C2CCF8B00117D98 = {
+			isa = PBXGroup;
+			children = (
+				EC9EEF411C2CCF8B00117D98 /* DQLSoapAndXML */,
+				EC9EEF5B1C2CCF8C00117D98 /* DQLSoapAndXMLTests */,
+				EC9EEF661C2CCF8C00117D98 /* DQLSoapAndXMLUITests */,
+				EC9EEF401C2CCF8B00117D98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9EEF401C2CCF8B00117D98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9EEF3F1C2CCF8B00117D98 /* DQLSoapAndXML.app */,
+				EC9EEF581C2CCF8C00117D98 /* DQLSoapAndXMLTests.xctest */,
+				EC9EEF631C2CCF8C00117D98 /* DQLSoapAndXMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9EEF411C2CCF8B00117D98 /* DQLSoapAndXML */ = {
+			isa = PBXGroup;
+			children = (
+				EC9EEF7B1C2CDE6C00117D98 /* Soap+XML */,
+				EC9EEF451C2CCF8B00117D98 /* AppDelegate.h */,
+				EC9EEF461C2CCF8B00117D98 /* AppDelegate.m */,
+				EC9EEF481C2CCF8B00117D98 /* ViewController.h */,
+				EC9EEF491C2CCF8B00117D98 /* ViewController.m */,
+				EC9EEF4B1C2CCF8B00117D98 /* Main.storyboard */,
+				EC9EEF4E1C2CCF8B00117D98 /* Assets.xcassets */,
+				EC9EEF501C2CCF8B00117D98 /* LaunchScreen.storyboard */,
+				EC9EEF531C2CCF8C00117D98 /* Info.plist */,
+				EC9EEF421C2CCF8B00117D98 /* Supporting Files */,
+			);
+			path = DQLSoapAndXML;
+			sourceTree = "<group>";
+		};
+		EC9EEF421C2CCF8B00117D98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9EEF431C2CCF8B00117D98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9EEF5B1C2CCF8C00117D98 /* DQLSoapAndXMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9EEF5C1C2CCF8C00117D98 /* DQLSoapAndXMLTests.m */,
+				EC9EEF5E1C2CCF8C00117D98 /* Info.plist */,
+			);
+			path = DQLSoapAndXMLTests;
+			sourceTree = "<group>";
+		};
+		EC9EEF661C2CCF8C00117D98 /* DQLSoapAndXMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9EEF671C2CCF8C00117D98 /* DQLSoapAndXMLUITests.m */,
+				EC9EEF691C2CCF8C00117D98 /* Info.plist */,
+			);
+			path = DQLSoapAndXMLUITests;
+			sourceTree = "<group>";
+		};
+		EC9EEF7B1C2CDE6C00117D98 /* Soap+XML */ = {
+			isa = PBXGroup;
+			children = (
+				EC9EEF751C2CCFCD00117D98 /* DQYSoapAndXML.h */,
+				EC9EEF761C2CCFCD00117D98 /* DQYSoapAndXML.m */,
+				EC9EEF781C2CD04800117D98 /* MBProgressHUD.h */,
+				EC9EEF791C2CD04800117D98 /* MBProgressHUD.m */,
+			);
+			name = "Soap+XML";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9EEF3E1C2CCF8B00117D98 /* DQLSoapAndXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9EEF6C1C2CCF8C00117D98 /* Build configuration list for PBXNativeTarget "DQLSoapAndXML" */;
+			buildPhases = (
+				EC9EEF3B1C2CCF8B00117D98 /* Sources */,
+				EC9EEF3C1C2CCF8B00117D98 /* Frameworks */,
+				EC9EEF3D1C2CCF8B00117D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DQLSoapAndXML;
+			productName = DQLSoapAndXML;
+			productReference = EC9EEF3F1C2CCF8B00117D98 /* DQLSoapAndXML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9EEF571C2CCF8C00117D98 /* DQLSoapAndXMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9EEF6F1C2CCF8C00117D98 /* Build configuration list for PBXNativeTarget "DQLSoapAndXMLTests" */;
+			buildPhases = (
+				EC9EEF541C2CCF8C00117D98 /* Sources */,
+				EC9EEF551C2CCF8C00117D98 /* Frameworks */,
+				EC9EEF561C2CCF8C00117D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9EEF5A1C2CCF8C00117D98 /* PBXTargetDependency */,
+			);
+			name = DQLSoapAndXMLTests;
+			productName = DQLSoapAndXMLTests;
+			productReference = EC9EEF581C2CCF8C00117D98 /* DQLSoapAndXMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC9EEF621C2CCF8C00117D98 /* DQLSoapAndXMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9EEF721C2CCF8C00117D98 /* Build configuration list for PBXNativeTarget "DQLSoapAndXMLUITests" */;
+			buildPhases = (
+				EC9EEF5F1C2CCF8C00117D98 /* Sources */,
+				EC9EEF601C2CCF8C00117D98 /* Frameworks */,
+				EC9EEF611C2CCF8C00117D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9EEF651C2CCF8C00117D98 /* PBXTargetDependency */,
+			);
+			name = DQLSoapAndXMLUITests;
+			productName = DQLSoapAndXMLUITests;
+			productReference = EC9EEF631C2CCF8C00117D98 /* DQLSoapAndXMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9EEF371C2CCF8B00117D98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dqy;
+				TargetAttributes = {
+					EC9EEF3E1C2CCF8B00117D98 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 72B7X393T8;
+					};
+					EC9EEF571C2CCF8C00117D98 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 72B7X393T8;
+						TestTargetID = EC9EEF3E1C2CCF8B00117D98;
+					};
+					EC9EEF621C2CCF8C00117D98 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 72B7X393T8;
+						TestTargetID = EC9EEF3E1C2CCF8B00117D98;
+					};
+				};
+			};
+			buildConfigurationList = EC9EEF3A1C2CCF8B00117D98 /* Build configuration list for PBXProject "DQLSoapAndXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9EEF361C2CCF8B00117D98;
+			productRefGroup = EC9EEF401C2CCF8B00117D98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9EEF3E1C2CCF8B00117D98 /* DQLSoapAndXML */,
+				EC9EEF571C2CCF8C00117D98 /* DQLSoapAndXMLTests */,
+				EC9EEF621C2CCF8C00117D98 /* DQLSoapAndXMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9EEF3D1C2CCF8B00117D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9EEF521C2CCF8B00117D98 /* LaunchScreen.storyboard in Resources */,
+				EC9EEF4F1C2CCF8B00117D98 /* Assets.xcassets in Resources */,
+				EC9EEF4D1C2CCF8B00117D98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9EEF561C2CCF8C00117D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9EEF611C2CCF8C00117D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9EEF3B1C2CCF8B00117D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9EEF4A1C2CCF8B00117D98 /* ViewController.m in Sources */,
+				EC9EEF471C2CCF8B00117D98 /* AppDelegate.m in Sources */,
+				EC9EEF7A1C2CD04800117D98 /* MBProgressHUD.m in Sources */,
+				EC9EEF441C2CCF8B00117D98 /* main.m in Sources */,
+				EC9EEF771C2CCFCD00117D98 /* DQYSoapAndXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9EEF541C2CCF8C00117D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9EEF5D1C2CCF8C00117D98 /* DQLSoapAndXMLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9EEF5F1C2CCF8C00117D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9EEF681C2CCF8C00117D98 /* DQLSoapAndXMLUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9EEF5A1C2CCF8C00117D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9EEF3E1C2CCF8B00117D98 /* DQLSoapAndXML */;
+			targetProxy = EC9EEF591C2CCF8C00117D98 /* PBXContainerItemProxy */;
+		};
+		EC9EEF651C2CCF8C00117D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9EEF3E1C2CCF8B00117D98 /* DQLSoapAndXML */;
+			targetProxy = EC9EEF641C2CCF8C00117D98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC9EEF4B1C2CCF8B00117D98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9EEF4C1C2CCF8B00117D98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9EEF501C2CCF8B00117D98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9EEF511C2CCF8B00117D98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9EEF6A1C2CCF8C00117D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC9EEF6B1C2CCF8C00117D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9EEF6D1C2CCF8C00117D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DQLSoapAndXML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqy.DQLSoapAndXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC9EEF6E1C2CCF8C00117D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DQLSoapAndXML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqy.DQLSoapAndXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC9EEF701C2CCF8C00117D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DQLSoapAndXMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqy.DQLSoapAndXMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQLSoapAndXML.app/DQLSoapAndXML";
+			};
+			name = Debug;
+		};
+		EC9EEF711C2CCF8C00117D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DQLSoapAndXMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqy.DQLSoapAndXMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQLSoapAndXML.app/DQLSoapAndXML";
+			};
+			name = Release;
+		};
+		EC9EEF731C2CCF8C00117D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DQLSoapAndXMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqy.DQLSoapAndXMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DQLSoapAndXML;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC9EEF741C2CCF8C00117D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DQLSoapAndXMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqy.DQLSoapAndXMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DQLSoapAndXML;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9EEF3A1C2CCF8B00117D98 /* Build configuration list for PBXProject "DQLSoapAndXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9EEF6A1C2CCF8C00117D98 /* Debug */,
+				EC9EEF6B1C2CCF8C00117D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9EEF6C1C2CCF8C00117D98 /* Build configuration list for PBXNativeTarget "DQLSoapAndXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9EEF6D1C2CCF8C00117D98 /* Debug */,
+				EC9EEF6E1C2CCF8C00117D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC9EEF6F1C2CCF8C00117D98 /* Build configuration list for PBXNativeTarget "DQLSoapAndXMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9EEF701C2CCF8C00117D98 /* Debug */,
+				EC9EEF711C2CCF8C00117D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC9EEF721C2CCF8C00117D98 /* Build configuration list for PBXNativeTarget "DQLSoapAndXMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9EEF731C2CCF8C00117D98 /* Debug */,
+				EC9EEF741C2CCF8C00117D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9EEF371C2CCF8B00117D98 /* Project object */;
+}
